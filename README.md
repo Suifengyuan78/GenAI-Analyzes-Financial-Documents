@@ -6,3 +6,8 @@ Extract and analyze key financial data from client 10-K and 10-Q documents. Deve
 - Accuracy: The chatbot should provide precise and reliable financial insights backed by thorough data analysis.
 - User-friendly interface: The chatbot should be intuitive and easy to use for GFC’s diverse client base, regardless of their financial expertise.
 - Scalability: The solution should be scalable – capable of handling an increasing number of documents and user queries.
+
+## Determining important factors for AI integration
+
+- Data quality assessment: The success of AI heavily depends on the quality of data it is fed. Through this task, I've leart to identify and extract high-quality, relevant financial data, setting a strong foundation for accurate AI modeling.
+- Understanding data structure: AI models require data in specific formats. This task has helpped me comprehend the structuring of financial data, which is a pivotal step in preparing it for AI integration.
