@@ -57,3 +57,29 @@ Focus on the balance sheet summary. Compare assets against liabilities to unders
 Cash from operating activities, investing activities, and financing activities.
 #### Extraction technique: 
 Analyze the cash flow statement to understand how the company generates and spends its cash. This can provide insights into a company's liquidity.
+
+
+## Steps
+### Step 1: Data extraction
+### Step 2: Preparing my Jupyter Notebook environment
+### Step 3: Python analysis in Jupyter
+
+#### Import pandas:
+At the beginning of my notebook, imported the pandas library to work with my data.
+
+import pandas as pd
+
+#### Load your data:
+Convert my Excel file to a CSV file for easier handling, then loaded it into a DataFrame.
+
+df = pd.read_csv('path_to_my_csv_file.csv')
+
+#### Analyzing trends with pandas:
+Use pandas to calculate year-over-year changes for each financial metric. I did this by creating new columns in my DataFrame that represent the percentage change from one year to the next.
+
+df['Revenue Growth (%)'] = df.groupby(['Company'])['Total Revenue'].pct_change() * 100
+df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change() * 100
+
+Explore other aggregate functions or groupings to analyze the data across different dimensions (by company, over years, etc.).
+
+### Step 4: Documentation and submission
