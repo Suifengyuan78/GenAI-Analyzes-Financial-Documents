@@ -1,5 +1,6 @@
-# Financial Data Analysis for GFC AI Chatbot Project
-Developing an AI powered chatbot that analyzes financial documents extract and analyze key financial data from client 10-K documents. Develop an AI-powered financial chatbot capable of interpreting data and delivering insights in an interactive, user-friendly manner.
+# GFC AI Chatbot Project
+This project will develop an AI-powered chatbot designed to extract and analyze key financial data from the 10-K documents of Apple, Microsoft, and Tesla. This financial chatbot aims to interpret data and deliver insights interactively and in a user-friendly manner, empowering users with sophisticated financial analysis tools.
+
 ## Specific project requirements and outcomes
 
 - Efficiency: The solution must significantly reduce the time taken to analyze financial documents compared to traditional methods.
@@ -32,6 +33,9 @@ These insights will feed into the AI chatbot, enabling it to provide in-depth fi
 
 ### Deliverable:
   - A comprehensive data analysis report, which should include:findings and summary providing insights into the financial health of the analyzed companies.
+    
+### Chatbot development:
+ - Chatbot logic: Write a Python script that uses if-else statements to match user input (the predefined queries) to the responses I prepared. Use a simple Flask app for web-based interaction to get a more interactive experience.
 
 
 ## Techniques for extracting key financial data from 10-Ks 
@@ -64,12 +68,7 @@ Analyze the cash flow statement to understand how the company generates and spen
 ### Step 2: Preparing my Jupyter Notebook environment
 ### Step 3: Python analysis in Jupyter
 
-#### Import pandas:
-At the beginning of my notebook, imported the pandas library to work with my data.
-
-import pandas as pd
-
-#### Load your data:
+#### Load the data:
 Convert my Excel file to a CSV file for easier handling, then loaded it into a DataFrame.
 
 df = pd.read_csv('path_to_my_csv_file.csv')
@@ -82,4 +81,12 @@ df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change()
 
 Explore other aggregate functions or groupings to analyze the data across different dimensions (by company, over years, etc.).
 
-### Step 4: Documentation and submission
+### Step 4: Chatbot design and data preparation
+- Define predefined queries: "What is the total revenue?", "How has net income changed over the last year?"
+- Prepare responses: Use the analyzed financial data to create canned responses for these queries.
+
+### Step 5: Chatbot development
+
+
+### Step 6: Demonstration and documentation
+
