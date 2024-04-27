@@ -1,5 +1,5 @@
 # GFC AI Chatbot Project
-This project will develop an AI-powered chatbot designed to extract and analyze key financial data from the 10-K documents of Apple, Microsoft, and Tesla. This financial chatbot aims to interpret data and deliver insights interactively and in a user-friendly manner, empowering users with sophisticated financial analysis tools.
+This project will develop an AI-powered chatbot designed to extract and analyze key financial data from the 10-K documents of Apple, Microsoft, and Tesla from SEC's EDGAR database. This financial chatbot aims to interpret data and deliver insights interactively and in a user-friendly manner, empowering users with sophisticated financial analysis tools.
 
 ## Specific project requirements and outcomes
 
@@ -87,6 +87,10 @@ Explore other aggregate functions or groupings to analyze the data across differ
 
 ### Step 5: Chatbot development
 
+<img width="490" alt="image" src="https://github.com/Suifengyuan78/developing-an-AI-powered-chatbot-that-analyzes-financial-documents/assets/167149285/8e1a4c71-bc91-409f-a876-fe9b9a3283e7">
+
+
 
 ### Step 6: Demonstration and documentation
 
+![image](https://github.com/Suifengyuan78/developing-an-AI-powered-chatbot-that-analyzes-financial-documents/assets/167149285/4bbe7348-b87c-4a21-a84a-9f01711fc75d)
