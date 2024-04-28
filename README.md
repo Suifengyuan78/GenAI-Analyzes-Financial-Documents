@@ -1,4 +1,7 @@
-# GFC AI Chatbot Project
+# Develop GFC AI Chatbot Project
+
+#### Company: ![image](https://github.com/Suifengyuan78/GenAI-analyzes-financial-documents/assets/167149285/67079ca2-d378-4969-958c-bf52782cbdf8) [Know more about BGC](https://www.bgc.com.au/)
+
 This project will develop an AI-powered chatbot designed to extract and analyze key financial data from the 10-K documents of Apple, Microsoft, and Tesla from SEC's EDGAR database. This financial chatbot aims to interpret data and deliver insights interactively and in a user-friendly manner, empowering users with sophisticated financial analysis tools.
 
 ## Specific project requirements and outcomes
